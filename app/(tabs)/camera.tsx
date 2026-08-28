@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Pressable, Button } from 'react-native';
+import { StyleSheet, Text, View, Pressable, Button, Animated } from 'react-native';
 import { CameraView, useCameraPermissions } from 'expo-camera';
 
 export default function CameraScreen() {

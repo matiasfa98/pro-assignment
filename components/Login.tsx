@@ -1,14 +1,14 @@
 import { useContext, useState } from 'react';
 import {
-  ActivityIndicator,
-  KeyboardAvoidingView,
-  Platform,
-  Pressable,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
+    ActivityIndicator,
+    KeyboardAvoidingView,
+    Platform,
+    Pressable,
+    SafeAreaView,
+    StyleSheet,
+    Text,
+    TextInput,
+    View,
 } from 'react-native';
 
 import { UserContext } from '@/context/context';
@@ -92,7 +92,7 @@ export default function Login() {
                   value={password}
                   onChangeText={setPassword}
                   placeholder="Enter your password"
-                  placeholderTextColor="#667"
+                  placeholderTextColor="#666"
                   secureTextEntry={!showPassword}
                   style={styles.passwordInput}
                 />
