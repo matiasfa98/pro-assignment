@@ -1,0 +1,715 @@
+[
+  {
+    "id": 1,
+    "name": "Feven Abraham",
+    "email": "feven.abraham@gmail.com",
+    "password": "Feven@2024",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    "bio": "Full-stack developer | React Native enthusiast | Coffee addict",
+    "location": "Addis Ababa, Ethiopia",
+    "joined": "2023-01-15",
+    "feeds": [
+      {"id": 101, "content": "Just launched my first React Native app! 🚀", "image": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=600&h=400&fit=crop", "timestamp": "2026-08-27T09:30:00Z", "likes": 24, "comments": 5, "category": "Technology"},
+      {"id": 102, "content": "Beautiful sunset over Addis Ababa 🌅", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop", "timestamp": "2026-08-26T18:15:00Z", "likes": 42, "comments": 8, "category": "Travel"},
+      {"id": 103, "content": "Learning React Native with Expo - game changer!", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=600&h=400&fit=crop", "timestamp": "2026-08-25T14:20:00Z", "likes": 18, "comments": 3, "category": "Technology"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "John Carter",
+    "email": "john.carter@outlook.com",
+    "password": "John@7890",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Photographer | Traveler | Storyteller",
+    "location": "New York, USA",
+    "joined": "2023-02-20",
+    "feeds": [
+      {"id": 201, "content": "Hello everyone! Just arrived in NYC 📸", "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=600&h=400&fit=crop", "timestamp": "2026-08-27T11:00:00Z", "likes": 56, "comments": 12, "category": "Travel"},
+      {"id": 202, "content": "Central Park in autumn - pure magic 🍂", "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600&h=400&fit=crop", "timestamp": "2026-08-26T10:30:00Z", "likes": 89, "comments": 15, "category": "Photography"},
+      {"id": 203, "content": "Times Square at night never gets old ✨", "image": "https://images.unsplash.com/photo-1485872299829-c673f5194813?w=600&h=400&fit=crop", "timestamp": "2026-08-25T22:00:00Z", "likes": 34, "comments": 7, "category": "Travel"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sarah Mitchell",
+    "email": "sarah.mitchell@yahoo.com",
+    "password": "Sarah@321",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "bio": "Data scientist | AI researcher | Dog mom 🐕",
+    "location": "San Francisco, USA",
+    "joined": "2023-03-05",
+    "feeds": [
+      {"id": 301, "content": "New job as Senior Data Scientist! 🎉", "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop", "timestamp": "2026-08-27T08:45:00Z", "likes": 67, "comments": 14, "category": "Career"},
+      {"id": 302, "content": "Python vs R - my thoughts 💭", "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop", "timestamp": "2026-08-26T16:20:00Z", "likes": 45, "comments": 9, "category": "Technology"},
+      {"id": 303, "content": "Weekend hike with my dog 🐾", "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&h=400&fit=crop", "timestamp": "2026-08-25T13:00:00Z", "likes": 78, "comments": 11, "category": "Lifestyle"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Michael Chen",
+    "email": "michael.chen@gmail.com",
+    "password": "Mike@4567",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Fitness coach | Nutritionist | Motivational speaker",
+    "location": "Los Angeles, USA",
+    "joined": "2023-01-10",
+    "feeds": [
+      {"id": 401, "content": "Morning gym session - new deadlift PR! 💪", "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop", "timestamp": "2026-08-27T06:00:00Z", "likes": 92, "comments": 18, "category": "Fitness"},
+      {"id": 402, "content": "Healthy meal prep for the week 🥗", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop", "timestamp": "2026-08-26T19:30:00Z", "likes": 56, "comments": 10, "category": "Health"},
+      {"id": 403, "content": "100kg bench press milestone! 🏋️", "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop", "timestamp": "2026-08-25T07:15:00Z", "likes": 103, "comments": 22, "category": "Fitness"},
+      {"id": 404, "content": "New PR achieved - 150kg squat 🏆", "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop", "timestamp": "2026-08-24T06:30:00Z", "likes": 87, "comments": 16, "category": "Fitness"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Emily Davis",
+    "email": "emily.davis@artstudio.com",
+    "password": "Emily@789",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Artist | Illustrator | Creative soul 🎨",
+    "location": "London, UK",
+    "joined": "2023-04-12",
+    "feeds": [
+      {"id": 501, "content": "Art exhibition opening tonight! 🎭", "image": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=600&h=400&fit=crop", "timestamp": "2026-08-27T10:00:00Z", "likes": 71, "comments": 13, "category": "Art"},
+      {"id": 502, "content": "Painting my newest masterpiece - 'Ocean Dreams' 🌊", "image": "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop", "timestamp": "2026-08-26T15:45:00Z", "likes": 64, "comments": 9, "category": "Art"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "David Kim",
+    "email": "david.kim@travel.com",
+    "password": "Dave@2024",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Travel blogger | Foodie | Adventure seeker 🌏",
+    "location": "Tokyo, Japan",
+    "joined": "2023-05-01",
+    "feeds": [
+      {"id": 601, "content": "Exploring the streets of Tokyo 🗾", "image": "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?w=600&h=400&fit=crop", "timestamp": "2026-08-27T13:00:00Z", "likes": 95, "comments": 19, "category": "Travel"},
+      {"id": 602, "content": "Best sushi of my life! 🍣", "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=600&h=400&fit=crop", "timestamp": "2026-08-26T12:30:00Z", "likes": 83, "comments": 16, "category": "Food"},
+      {"id": 603, "content": "Mount Fuji view is breathtaking 🗻", "image": "https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=600&h=400&fit=crop", "timestamp": "2026-08-25T09:00:00Z", "likes": 112, "comments": 24, "category": "Travel"},
+      {"id": 604, "content": "Tokyo nightlife is crazy! 🌃", "image": "https://images.unsplash.com/photo-1538485399081-7191377e8241?w=600&h=400&fit=crop", "timestamp": "2026-08-24T21:00:00Z", "likes": 67, "comments": 11, "category": "Lifestyle"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Jessica Williams",
+    "email": "jessica.williams@gmail.com",
+    "password": "Jess@456",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+    "bio": "Graphic designer | UI/UX | Coffee lover ☕",
+    "location": "Berlin, Germany",
+    "joined": "2023-06-18",
+    "feeds": [
+      {"id": 701, "content": "My new portfolio is live! 🎨", "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop", "timestamp": "2026-08-27T16:45:00Z", "likes": 49, "comments": 8, "category": "Design"},
+      {"id": 702, "content": "Working on a new UI project", "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop", "timestamp": "2026-08-26T11:15:00Z", "likes": 38, "comments": 6, "category": "Design"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Robert Martinez",
+    "email": "robert.martinez@tech.com",
+    "password": "Rob@321",
+    "avatar": "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=150&h=150&fit=crop&crop=face",
+    "bio": "DevOps engineer | Cloud architect | Open source contributor",
+    "location": "Austin, USA",
+    "joined": "2023-07-01",
+    "feeds": [
+      {"id": 801, "content": "Kubernetes is amazing! ☸️", "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&h=400&fit=crop", "timestamp": "2026-08-27T08:00:00Z", "likes": 56, "comments": 12, "category": "Technology"},
+      {"id": 802, "content": "AWS re:Invent preparation 🚀", "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop", "timestamp": "2026-08-26T20:00:00Z", "likes": 43, "comments": 7, "category": "Technology"},
+      {"id": 803, "content": "Microservices architecture explained", "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop", "timestamp": "2026-08-25T17:30:00Z", "likes": 67, "comments": 14, "category": "Technology"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Amanda Lee",
+    "email": "amanda.lee@fashion.com",
+    "password": "Mandy@789",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Fashion designer | Trendsetter | Style icon 👗",
+    "location": "Milan, Italy",
+    "joined": "2023-07-20",
+    "feeds": [
+      {"id": 901, "content": "Milan Fashion Week is here! 👠", "image": "https://images.unsplash.com/photo-1566206091558-7f218b696731?w=600&h=400&fit=crop", "timestamp": "2026-08-27T14:30:00Z", "likes": 134, "comments": 28, "category": "Fashion"},
+      {"id": 902, "content": "New collection drop - 'Ethereal Dreams'", "image": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&h=400&fit=crop", "timestamp": "2026-08-26T10:00:00Z", "likes": 91, "comments": 18, "category": "Fashion"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "James Wilson",
+    "email": "james.wilson@music.com",
+    "password": "James@567",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Musician | Guitarist | Songwriter 🎸",
+    "location": "Nashville, USA",
+    "joined": "2023-08-10",
+    "feeds": [
+      {"id": 1001, "content": "New song released! 'Midnight Rain' 🎵", "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=400&fit=crop", "timestamp": "2026-08-27T12:00:00Z", "likes": 78, "comments": 15, "category": "Music"},
+      {"id": 1002, "content": "Studio recording session 🎙️", "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop", "timestamp": "2026-08-26T18:30:00Z", "likes": 54, "comments": 9, "category": "Music"},
+      {"id": 1003, "content": "Live concert at Bridgestone Arena", "image": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600&h=400&fit=crop", "timestamp": "2026-08-25T20:00:00Z", "likes": 156, "comments": 34, "category": "Music"}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Olivia Brown",
+    "email": "olivia.brown@gmail.com",
+    "password": "Olive@2024",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "bio": "Nutritionist | Wellness coach | Plant-based lifestyle 🌱",
+    "location": "Portland, USA",
+    "joined": "2023-08-25",
+    "feeds": [
+      {"id": 1101, "content": "Green smoothie recipe - so good! 🥬", "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&h=400&fit=crop", "timestamp": "2026-08-27T07:30:00Z", "likes": 45, "comments": 8, "category": "Health"},
+      {"id": 1102, "content": "Yoga retreat in Bali 🧘", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop", "timestamp": "2026-08-26T09:00:00Z", "likes": 98, "comments": 21, "category": "Wellness"}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Daniel Park",
+    "email": "daniel.park@startup.com",
+    "password": "Dan@123",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Entrepreneur | Investor | Tech enthusiast",
+    "location": "Singapore",
+    "joined": "2023-09-05",
+    "feeds": [
+      {"id": 1201, "content": "Our startup just raised $5M Series A! 🎉", "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop", "timestamp": "2026-08-27T15:00:00Z", "likes": 203, "comments": 45, "category": "Business"},
+      {"id": 1202, "content": "Networking at TechCrunch Disrupt", "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=400&fit=crop", "timestamp": "2026-08-26T14:30:00Z", "likes": 76, "comments": 13, "category": "Business"},
+      {"id": 1203, "content": "The future of AI in business 🤖", "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop", "timestamp": "2026-08-25T11:00:00Z", "likes": 89, "comments": 19, "category": "Technology"}
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Emma Johnson",
+    "email": "emma.johnson@education.com",
+    "password": "Emma@456",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Teacher | Educational consultant | Children's book author 📚",
+    "location": "Boston, USA",
+    "joined": "2023-09-15",
+    "feeds": [
+      {"id": 1301, "content": "New book release - 'Adventures in Learning' 📖", "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop", "timestamp": "2026-08-27T09:15:00Z", "likes": 62, "comments": 11, "category": "Education"},
+      {"id": 1302, "content": "Classroom transformation! 🎨", "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=400&fit=crop", "timestamp": "2026-08-26T13:45:00Z", "likes": 51, "comments": 7, "category": "Education"}
+    ]
+  },
+  {
+    "id": 14,
+    "name": "William Taylor",
+    "email": "will.taylor@finance.com",
+    "password": "Will@789",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Financial analyst | Crypto investor | Stock trader 📈",
+    "location": "Chicago, USA",
+    "joined": "2023-10-01",
+    "feeds": [
+      {"id": 1401, "content": "Bitcoin at new ATH! 🚀", "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=600&h=400&fit=crop", "timestamp": "2026-08-27T16:00:00Z", "likes": 87, "comments": 23, "category": "Finance"},
+      {"id": 1402, "content": "Stock market analysis for Q3", "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=600&h=400&fit=crop", "timestamp": "2026-08-26T08:30:00Z", "likes": 43, "comments": 6, "category": "Finance"}
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Sophia Anderson",
+    "email": "sophia.anderson@gmail.com",
+    "password": "Soph@2024",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    "bio": "Film director | Screenwriter | Storyteller 🎬",
+    "location": "Toronto, Canada",
+    "joined": "2023-10-15",
+    "feeds": [
+      {"id": 1501, "content": "First day on set of my new film! 🎥", "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&h=400&fit=crop", "timestamp": "2026-08-27T11:30:00Z", "likes": 113, "comments": 27, "category": "Film"},
+      {"id": 1502, "content": "Scriptwriting session 📝", "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop", "timestamp": "2026-08-26T17:00:00Z", "likes": 58, "comments": 10, "category": "Film"}
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Andrew Moore",
+    "email": "andrew.moore@environment.com",
+    "password": "Andy@567",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Environmental scientist | Climate activist | Photographer 🌍",
+    "location": "Vancouver, Canada",
+    "joined": "2023-11-01",
+    "feeds": [
+      {"id": 1601, "content": "Protecting our oceans - beach cleanup 🌊", "image": "https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?w=600&h=400&fit=crop", "timestamp": "2026-08-27T10:30:00Z", "likes": 79, "comments": 14, "category": "Environment"},
+      {"id": 1602, "content": "Climate change documentary screening 🎥", "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&h=400&fit=crop", "timestamp": "2026-08-26T19:00:00Z", "likes": 92, "comments": 20, "category": "Environment"}
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Isabella Garcia",
+    "email": "isabella.garcia@art.com",
+    "password": "Isab@789",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+    "bio": "Ceramic artist | Sculptor | Art teacher 🏺",
+    "location": "Barcelona, Spain",
+    "joined": "2023-11-15",
+    "feeds": [
+      {"id": 1701, "content": "Clay workshop today! 🎨", "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop", "timestamp": "2026-08-27T13:30:00Z", "likes": 56, "comments": 9, "category": "Art"},
+      {"id": 1702, "content": "My latest sculpture piece", "image": "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&h=400&fit=crop", "timestamp": "2026-08-26T14:15:00Z", "likes": 67, "comments": 12, "category": "Art"}
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Christopher Martinez",
+    "email": "chris.martinez@tech.com",
+    "password": "Chris@2024",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Software engineer | Gamer | Streamer 🎮",
+    "location": "Seattle, USA",
+    "joined": "2023-12-01",
+    "feeds": [
+      {"id": 1801, "content": "Building my new gaming PC 🖥️", "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=600&h=400&fit=crop", "timestamp": "2026-08-27T18:00:00Z", "likes": 88, "comments": 17, "category": "Technology"},
+      {"id": 1802, "content": "Live streaming on Twitch now! 🎥", "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=600&h=400&fit=crop", "timestamp": "2026-08-26T22:00:00Z", "likes": 124, "comments": 31, "category": "Gaming"},
+      {"id": 1803, "content": "Just reached 10K followers on Twitch! 🎉", "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=400&fit=crop", "timestamp": "2026-08-25T20:30:00Z", "likes": 156, "comments": 38, "category": "Gaming"}
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Mia Thompson",
+    "email": "mia.thompson@healthcare.com",
+    "password": "Mia@123",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "bio": "Pediatrician | Children's health advocate | Mom 👩‍⚕️",
+    "location": "Sydney, Australia",
+    "joined": "2023-12-15",
+    "feeds": [
+      {"id": 1901, "content": "Children's health awareness campaign", "image": "https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=600&h=400&fit=crop", "timestamp": "2026-08-27T08:45:00Z", "likes": 73, "comments": 15, "category": "Health"},
+      {"id": 1902, "content": "So grateful for my team at the hospital", "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=400&fit=crop", "timestamp": "2026-08-26T12:00:00Z", "likes": 61, "comments": 8, "category": "Career"}
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Matthew Wright",
+    "email": "matthew.wright@gmail.com",
+    "password": "Matt@456",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Civil engineer | Architecture enthusiast | Traveler 🏗️",
+    "location": "Dubai, UAE",
+    "joined": "2024-01-05",
+    "feeds": [
+      {"id": 2001, "content": "Visiting the Burj Khalifa - incredible! 🏙️", "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&h=400&fit=crop", "timestamp": "2026-08-27T14:00:00Z", "likes": 104, "comments": 22, "category": "Travel"},
+      {"id": 2002, "content": "Sustainable architecture innovations", "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop", "timestamp": "2026-08-26T16:30:00Z", "likes": 57, "comments": 11, "category": "Architecture"}
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Charlotte Lewis",
+    "email": "charlotte.lewis@fashion.com",
+    "password": "Char@789",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Makeup artist | Beauty influencer | Entrepreneur 💄",
+    "location": "Paris, France",
+    "joined": "2024-01-20",
+    "feeds": [
+      {"id": 2101, "content": "New makeup tutorial on my channel! 💋", "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&h=400&fit=crop", "timestamp": "2026-08-27T11:00:00Z", "likes": 134, "comments": 29, "category": "Beauty"},
+      {"id": 2102, "content": "Behind the scenes at Paris Fashion Week", "image": "https://images.unsplash.com/photo-1566206091558-7f218b696731?w=600&h=400&fit=crop", "timestamp": "2026-08-26T10:30:00Z", "likes": 98, "comments": 18, "category": "Fashion"}
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Joseph King",
+    "email": "joseph.king@sports.com",
+    "password": "Joe@2024",
+    "avatar": "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=150&h=150&fit=crop&crop=face",
+    "bio": "Sports journalist | Basketball analyst | Podcast host 🏀",
+    "location": "Chicago, USA",
+    "joined": "2024-02-01",
+    "feeds": [
+      {"id": 2201, "content": "Game night at United Center! 🏀", "image": "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=600&h=400&fit=crop", "timestamp": "2026-08-27T19:00:00Z", "likes": 92, "comments": 16, "category": "Sports"},
+      {"id": 2202, "content": "Bulls vs Lakers - amazing game", "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=400&fit=crop", "timestamp": "2026-08-26T21:30:00Z", "likes": 78, "comments": 14, "category": "Sports"}
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Amelia Green",
+    "email": "amelia.green@gmail.com",
+    "password": "Amel@567",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Botanist | Gardener | Nature photographer 🌸",
+    "location": "Amsterdam, Netherlands",
+    "joined": "2024-02-15",
+    "feeds": [
+      {"id": 2301, "content": "Spring is here - tulips everywhere! 🌷", "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&h=400&fit=crop", "timestamp": "2026-08-27T07:00:00Z", "likes": 87, "comments": 19, "category": "Nature"},
+      {"id": 2302, "content": "Botanical garden exploration 🌿", "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&h=400&fit=crop", "timestamp": "2026-08-26T15:00:00Z", "likes": 65, "comments": 12, "category": "Nature"}
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Samuel Harris",
+    "email": "samuel.harris@law.com",
+    "password": "Sam@789",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Lawyer | Human rights activist | Public speaker ⚖️",
+    "location": "Washington DC, USA",
+    "joined": "2024-03-01",
+    "feeds": [
+      {"id": 2401, "content": "Supreme Court hearing today", "image": "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?w=600&h=400&fit=crop", "timestamp": "2026-08-27T09:00:00Z", "likes": 56, "comments": 10, "category": "Law"},
+      {"id": 2402, "content": "Human rights conference keynote speech", "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&h=400&fit=crop", "timestamp": "2026-08-26T13:00:00Z", "likes": 89, "comments": 21, "category": "Law"}
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Ella Clark",
+    "email": "ella.clark@gmail.com",
+    "password": "Ella@2024",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    "bio": "Dancer | Choreographer | Dance instructor 💃",
+    "location": "Rio de Janeiro, Brazil",
+    "joined": "2024-03-15",
+    "feeds": [
+      {"id": 2501, "content": "Samba class - energy is high! 🎶", "image": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600&h=400&fit=crop", "timestamp": "2026-08-27T15:30:00Z", "likes": 73, "comments": 14, "category": "Dance"},
+      {"id": 2502, "content": "Carnival preparation - so excited! 🎭", "image": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&h=400&fit=crop", "timestamp": "2026-08-26T18:45:00Z", "likes": 112, "comments": 26, "category": "Culture"}
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Benjamin Turner",
+    "email": "ben.turner@auto.com",
+    "password": "Ben@123",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Mechanical engineer | Car enthusiast | Adventurer 🏎️",
+    "location": "Detroit, USA",
+    "joined": "2024-04-01",
+    "feeds": [
+      {"id": 2601, "content": "New Tesla Model X - absolutely love it! ⚡", "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=600&h=400&fit=crop", "timestamp": "2026-08-27T16:00:00Z", "likes": 143, "comments": 34, "category": "Automotive"},
+      {"id": 2602, "content": "Road trip through the Rockies 🏔️", "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&h=400&fit=crop", "timestamp": "2026-08-26T08:00:00Z", "likes": 97, "comments": 19, "category": "Travel"}
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Grace Adams",
+    "email": "grace.adams@culinary.com",
+    "password": "Grace@456",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+    "bio": "Chef | Food blogger | Cookbook author 🍳",
+    "location": "Marseille, France",
+    "joined": "2024-04-15",
+    "feeds": [
+      {"id": 2701, "content": "Ratatouille - the perfect summer dish! 🍅", "image": "https://images.unsplash.com/photo-1515516969-d4008cc6241a?w=600&h=400&fit=crop", "timestamp": "2026-08-27T12:00:00Z", "likes": 84, "comments": 17, "category": "Food"},
+      {"id": 2702, "content": "French pastry class - croissants 🥐", "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&h=400&fit=crop", "timestamp": "2026-08-26T09:30:00Z", "likes": 69, "comments": 13, "category": "Food"}
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Dylan Campbell",
+    "email": "dylan.campbell@gmail.com",
+    "password": "Dyl@789",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Photographer | Videographer | Content creator 📷",
+    "location": "Los Angeles, USA",
+    "joined": "2024-05-01",
+    "feeds": [
+      {"id": 2801, "content": "LA sunset - perfect golden hour 🌅", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop", "timestamp": "2026-08-27T19:30:00Z", "likes": 156, "comments": 32, "category": "Photography"},
+      {"id": 2802, "content": "New camera gear unboxing 📸", "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=400&fit=crop", "timestamp": "2026-08-26T17:30:00Z", "likes": 67, "comments": 11, "category": "Photography"}
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Zoe Parker",
+    "email": "zoe.parker@wellness.com",
+    "password": "Zoe@2024",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "bio": "Yoga instructor | Meditation guide | Wellness coach 🧘",
+    "location": "Bali, Indonesia",
+    "joined": "2024-05-15",
+    "feeds": [
+      {"id": 2901, "content": "Sunrise yoga on the beach 🌅", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop", "timestamp": "2026-08-27T05:30:00Z", "likes": 134, "comments": 28, "category": "Wellness"},
+      {"id": 2902, "content": "Meditation retreat - inner peace 🙏", "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop", "timestamp": "2026-08-26T06:00:00Z", "likes": 98, "comments": 22, "category": "Wellness"}
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Lucas Bennett",
+    "email": "lucas.bennett@gmail.com",
+    "password": "Lucas@123",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Astronomer | Physics professor | Space enthusiast 🚀",
+    "location": "Houston, USA",
+    "joined": "2024-06-01",
+    "feeds": [
+      {"id": 3001, "content": "NASA visit - mind blowing! 🌌", "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop", "timestamp": "2026-08-27T14:30:00Z", "likes": 187, "comments": 41, "category": "Science"},
+      {"id": 3002, "content": "Aurora borealis - bucket list ✅", "image": "https://images.unsplash.com/photo-1536242885471-3e48c3bd1b3c?w=600&h=400&fit=crop", "timestamp": "2026-08-26T22:00:00Z", "likes": 203, "comments": 52, "category": "Nature"},
+      {"id": 3003, "content": "Stargazing in the desert 🌟", "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&h=400&fit=crop", "timestamp": "2026-08-25T23:30:00Z", "likes": 156, "comments": 34, "category": "Science"}
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Chloe Foster",
+    "email": "chloe.foster@gmail.com",
+    "password": "Chloe@123",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    "bio": "Psychologist | Author | Mental health advocate 🧠",
+    "location": "Zurich, Switzerland",
+    "joined": "2024-06-15",
+    "feeds": [
+      {"id": 3101, "content": "Mental health awareness month 🧠", "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop", "timestamp": "2026-08-27T08:00:00Z", "likes": 89, "comments": 23, "category": "Health"},
+      {"id": 3102, "content": "New book on mindfulness 📚", "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop", "timestamp": "2026-08-26T11:00:00Z", "likes": 67, "comments": 14, "category": "Education"}
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Nathan Reed",
+    "email": "nathan.reed@tech.com",
+    "password": "Nat@456",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Cybersecurity expert | Ethical hacker | Tech speaker 🔐",
+    "location": "Boston, USA",
+    "joined": "2024-07-01",
+    "feeds": [
+      {"id": 3201, "content": "Cybersecurity conference keynote 🔐", "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop", "timestamp": "2026-08-27T10:00:00Z", "likes": 78, "comments": 16, "category": "Technology"},
+      {"id": 3202, "content": "New exploit discovered - patch now!", "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=400&fit=crop", "timestamp": "2026-08-26T14:00:00Z", "likes": 134, "comments": 29, "category": "Technology"}
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Victoria Morgan",
+    "email": "victoria.morgan@fashion.com",
+    "password": "Vic@789",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Jewelry designer | Gemologist | Creative entrepreneur 💎",
+    "location": "Antwerp, Belgium",
+    "joined": "2024-07-15",
+    "feeds": [
+      {"id": 3301, "content": "New jewelry collection - 'Royal Gems' 💎", "image": "https://images.unsplash.com/photo-1587827948944-4a3f578a2e42?w=600&h=400&fit=crop", "timestamp": "2026-08-27T12:30:00Z", "likes": 92, "comments": 18, "category": "Fashion"},
+      {"id": 3302, "content": "Diamond cutting demonstration 💍", "image": "https://images.unsplash.com/photo-1583605081445-d63f29b3d35a?w=600&h=400&fit=crop", "timestamp": "2026-08-26T09:00:00Z", "likes": 76, "comments": 11, "category": "Art"}
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Patrick Murphy",
+    "email": "patrick.murphy@gmail.com",
+    "password": "Pat@2024",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Marine biologist | Scuba diver | Ocean conservationist 🐠",
+    "location": "Cairns, Australia",
+    "joined": "2024-08-01",
+    "feeds": [
+      {"id": 3401, "content": "Great Barrier Reef diving today 🐠", "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop", "timestamp": "2026-08-27T07:00:00Z", "likes": 156, "comments": 34, "category": "Nature"},
+      {"id": 3402, "content": "Coral restoration project underway 🌊", "image": "https://images.unsplash.com/photo-1519121785383-3229633bb75b?w=600&h=400&fit=crop", "timestamp": "2026-08-26T10:30:00Z", "likes": 113, "comments": 27, "category": "Environment"}
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Natalie Rivera",
+    "email": "natalie.rivera@fitness.com",
+    "password": "Nat@567",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+    "bio": "Personal trainer | Marathon runner | Nutrition coach 🏃‍♀️",
+    "location": "Boulder, USA",
+    "joined": "2024-08-15",
+    "feeds": [
+      {"id": 3501, "content": "Marathon training - 20 miles today! 🏃‍♀️", "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=600&h=400&fit=crop", "timestamp": "2026-08-27T05:00:00Z", "likes": 89, "comments": 19, "category": "Fitness"},
+      {"id": 3502, "content": "Post-run recovery routine 🧘", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop", "timestamp": "2026-08-26T08:30:00Z", "likes": 67, "comments": 12, "category": "Health"}
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Oscar Coleman",
+    "email": "oscar.coleman@gmail.com",
+    "password": "Oscar@123",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Architect | Urban planner | Sustainable design advocate 🏛️",
+    "location": "Copenhagen, Denmark",
+    "joined": "2024-09-01",
+    "feeds": [
+      {"id": 3601, "content": "Copenhagen's sustainable architecture tour 🌿", "image": "https://images.unsplash.com/photo-1554820881-d0d0c3f1c8a5?w=600&h=400&fit=crop", "timestamp": "2026-08-27T09:30:00Z", "likes": 78, "comments": 16, "category": "Architecture"},
+      {"id": 3602, "content": "Green building innovations 🌱", "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=600&h=400&fit=crop", "timestamp": "2026-08-26T13:00:00Z", "likes": 56, "comments": 9, "category": "Architecture"}
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Lily Scott",
+    "email": "lily.scott@gmail.com",
+    "password": "Lily@456",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "bio": "Violinist | Music teacher | Orchestra member 🎻",
+    "location": "Vienna, Austria",
+    "joined": "2024-09-15",
+    "feeds": [
+      {"id": 3701, "content": "Vienna Philharmonic performance tonight 🎵", "image": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=600&h=400&fit=crop", "timestamp": "2026-08-27T19:00:00Z", "likes": 134, "comments": 28, "category": "Music"},
+      {"id": 3702, "content": "Masterclass with world-renowned violinist 🎻", "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&h=400&fit=crop", "timestamp": "2026-08-26T15:30:00Z", "likes": 89, "comments": 17, "category": "Music"}
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Jack Cooper",
+    "email": "jack.cooper@aviation.com",
+    "password": "Jack@789",
+    "avatar": "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=150&h=150&fit=crop&crop=face",
+    "bio": "Pilot | Aviation enthusiast | Travel photographer ✈️",
+    "location": "Dubai, UAE",
+    "joined": "2024-10-01",
+    "feeds": [
+      {"id": 3801, "content": "Flying over the Dubai skyline ✈️", "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&h=400&fit=crop", "timestamp": "2026-08-27T16:30:00Z", "likes": 167, "comments": 35, "category": "Travel"},
+      {"id": 3802, "content": "Sunset from 35,000 feet 🌅", "image": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=600&h=400&fit=crop", "timestamp": "2026-08-26T18:00:00Z", "likes": 143, "comments": 29, "category": "Photography"}
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Eleanor Hughes",
+    "email": "eleanor.hughes@gmail.com",
+    "password": "Ell@2024",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Journalist | Writer | Podcast host 🎙️",
+    "location": "London, UK",
+    "joined": "2024-10-15",
+    "feeds": [
+      {"id": 3901, "content": "Interview with bestselling author 📚", "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=600&h=400&fit=crop", "timestamp": "2026-08-27T10:00:00Z", "likes": 62, "comments": 11, "category": "Media"},
+      {"id": 3902, "content": "Podcast episode 100 - milestone! 🎉", "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=600&h=400&fit=crop", "timestamp": "2026-08-26T14:30:00Z", "likes": 98, "comments": 21, "category": "Media"}
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Ryan Foster",
+    "email": "ryan.foster@gmail.com",
+    "password": "Ryan@123",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Chef | Restaurant owner | Culinary innovator 🍽️",
+    "location": "Barcelona, Spain",
+    "joined": "2024-11-01",
+    "feeds": [
+      {"id": 4001, "content": "New restaurant opening - 'Sabor Español' 🍷", "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop", "timestamp": "2026-08-27T11:00:00Z", "likes": 145, "comments": 32, "category": "Food"},
+      {"id": 4002, "content": "Paella - the perfect Spanish dish 🥘", "image": "https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=600&h=400&fit=crop", "timestamp": "2026-08-26T12:00:00Z", "likes": 89, "comments": 18, "category": "Food"}
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Megan Price",
+    "email": "megan.price@gmail.com",
+    "password": "Meg@456",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    "bio": "Astronaut candidate | STEM advocate | Speaker 🚀",
+    "location": "Houston, USA",
+    "joined": "2024-11-15",
+    "feeds": [
+      {"id": 4101, "content": "Zero gravity training - amazing! 🚀", "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&h=400&fit=crop", "timestamp": "2026-08-27T13:00:00Z", "likes": 234, "comments": 56, "category": "Science"},
+      {"id": 4102, "content": "Girls in STEM conference keynote", "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&h=400&fit=crop", "timestamp": "2026-08-26T09:00:00Z", "likes": 178, "comments": 41, "category": "Education"}
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Tyler Brooks",
+    "email": "tyler.brooks@gmail.com",
+    "password": "Tyle@789",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Surfer | Environmentalist | Beach clean-up organizer 🏄",
+    "location": "Gold Coast, Australia",
+    "joined": "2024-12-01",
+    "feeds": [
+      {"id": 4201, "content": "Perfect waves today! 🏄", "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600&h=400&fit=crop", "timestamp": "2026-08-27T06:30:00Z", "likes": 123, "comments": 27, "category": "Sports"},
+      {"id": 4202, "content": "Beach cleanup - 500kg collected! 🌊", "image": "https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?w=600&h=400&fit=crop", "timestamp": "2026-08-26T16:00:00Z", "likes": 156, "comments": 34, "category": "Environment"}
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Hannah Wright",
+    "email": "hannah.wright@gmail.com",
+    "password": "Hanna@2024",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Interior designer | Home decor blogger | Minimalist 🏠",
+    "location": "Stockholm, Sweden",
+    "joined": "2024-12-15",
+    "feeds": [
+      {"id": 4301, "content": "Minimalist home transformation 🏠", "image": "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=600&h=400&fit=crop", "timestamp": "2026-08-27T10:00:00Z", "likes": 89, "comments": 17, "category": "Design"},
+      {"id": 4302, "content": "Scandinavian interior design trends", "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&h=400&fit=crop", "timestamp": "2026-08-26T15:00:00Z", "likes": 67, "comments": 12, "category": "Design"}
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Dylan Roberts",
+    "email": "dylan.roberts@gmail.com",
+    "password": "Dyl@123",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Veterinarian | Animal lover | Wildlife rescuer 🐾",
+    "location": "Nairobi, Kenya",
+    "joined": "2025-01-05",
+    "feeds": [
+      {"id": 4401, "content": "Wildlife rescue mission in Kenya 🦒", "image": "https://images.unsplash.com/photo-1516507825953-2d88c107065a?w=600&h=400&fit=crop", "timestamp": "2026-08-27T08:00:00Z", "likes": 187, "comments": 42, "category": "Nature"},
+      {"id": 4402, "content": "Vet clinic - saving lives every day 🐕", "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600&h=400&fit=crop", "timestamp": "2026-08-26T11:30:00Z", "likes": 98, "comments": 21, "category": "Career"}
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Sofia Martinez",
+    "email": "sofia.martinez@gmail.com",
+    "password": "Sofi@456",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+    "bio": "Flamenco dancer | Choreographer | Spanish culture ambassador 💃",
+    "location": "Seville, Spain",
+    "joined": "2025-01-20",
+    "feeds": [
+      {"id": 4501, "content": "Flamenco show in Seville - sold out! 💃", "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=400&fit=crop", "timestamp": "2026-08-27T20:00:00Z", "likes": 145, "comments": 31, "category": "Dance"},
+      {"id": 4502, "content": "Teaching flamenco to international students", "image": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600&h=400&fit=crop", "timestamp": "2026-08-26T17:00:00Z", "likes": 89, "comments": 16, "category": "Culture"}
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Ethan Parker",
+    "email": "ethan.parker@gmail.com",
+    "password": "Eth@789",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "bio": "Robotics engineer | AI researcher | Maker 🤖",
+    "location": "Tokyo, Japan",
+    "joined": "2025-02-01",
+    "feeds": [
+      {"id": 4601, "content": "New humanoid robot prototype! 🤖", "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&h=400&fit=crop", "timestamp": "2026-08-27T14:30:00Z", "likes": 203, "comments": 48, "category": "Technology"},
+      {"id": 4602, "content": "AI robotics competition 🏆", "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop", "timestamp": "2026-08-26T19:00:00Z", "likes": 156, "comments": 34, "category": "Technology"}
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Ava Campbell",
+    "email": "ava.campbell@gmail.com",
+    "password": "Ava@2024",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    "bio": "Ballerina | Dance instructor | Choreographer 🩰",
+    "location": "Moscow, Russia",
+    "joined": "2025-02-15",
+    "feeds": [
+      {"id": 4701, "content": "Swan Lake performance tonight! 🩰", "image": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600&h=400&fit=crop", "timestamp": "2026-08-27T18:30:00Z", "likes": 178, "comments": 39, "category": "Dance"},
+      {"id": 4702, "content": "Behind the scenes at Bolshoi Theatre", "image": "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?w=600&h=400&fit=crop", "timestamp": "2026-08-26T10:00:00Z", "likes": 123, "comments": 26, "category": "Art"}
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Liam O'Brien",
+    "email": "liam.obrien@gmail.com",
+    "password": "Liam@123",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Historian | Museum curator | Cultural heritage expert 🏛️",
+    "location": "Rome, Italy",
+    "joined": "2025-03-01",
+    "feeds": [
+      {"id": 4801, "content": "Colosseum restoration project 🏛️", "image": "https://images.unsplash.com/photo-1562610496-b870a4c9b608?w=600&h=400&fit=crop", "timestamp": "2026-08-27T09:00:00Z", "likes": 89, "comments": 19, "category": "Culture"},
+      {"id": 4802, "content": "Ancient artifacts exhibition", "image": "https://images.unsplash.com/photo-1508108712903-49b7ef9b1df8?w=600&h=400&fit=crop", "timestamp": "2026-08-26T13:00:00Z", "likes": 67, "comments": 14, "category": "Education"}
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Maya Patel",
+    "email": "maya.patel@gmail.com",
+    "password": "Maya@456",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop&crop=face",
+    "bio": "Yoga teacher | Ayurvedic practitioner | Holistic health coach 🌿",
+    "location": "Rishikesh, India",
+    "joined": "2025-03-15",
+    "feeds": [
+      {"id": 4901, "content": "International Yoga Festival - incredible energy! 🧘", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop", "timestamp": "2026-08-27T06:00:00Z", "likes": 234, "comments": 53, "category": "Wellness"},
+      {"id": 4902, "content": "Ayurvedic healing session 🌿", "image": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&h=400&fit=crop", "timestamp": "2026-08-26T08:00:00Z", "likes": 156, "comments": 34, "category": "Health"}
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Noah Wilson",
+    "email": "noah.wilson@gmail.com",
+    "password": "Noah@789",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "bio": "Innovation consultant | Future strategist | TEDx speaker 🚀",
+    "location": "Singapore",
+    "joined": "2025-04-01",
+    "feeds": [
+      {"id": 5001, "content": "TEDx talk on future of work 🎤", "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop", "timestamp": "2026-08-27T15:00:00Z", "likes": 189, "comments": 42, "category": "Business"},
+      {"id": 5002, "content": "Innovation workshop in Singapore", "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop", "timestamp": "2026-08-26T12:30:00Z", "likes": 134, "comments": 28, "category": "Business"},
+      {"id": 5003, "content": "Future trends - AI and humanity 🤖", "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop", "timestamp": "2026-08-25T16:00:00Z", "likes": 167, "comments": 36, "category": "Technology"}
+    ]
+  }
+]
